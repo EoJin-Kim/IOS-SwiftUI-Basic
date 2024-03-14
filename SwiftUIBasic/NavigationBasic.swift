@@ -8,8 +8,49 @@
 import SwiftUI
 
 struct NavigationBasic: View {
+    
+    
+    @State
+    var showSeet: Bool = false
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView{
+            VStack{
+                NavigationLink {
+                    // destination : 목적지 -> 어디로 페이지 이동할꺼냐
+                    SecondNavigationView()
+                } label: {
+                    Text("Second Navigation 이동")
+                        .foregroundColor(.white)
+                        .font(.headline)
+                        .padding()
+                        .background(.blue)
+                        .cornerRadius(10)
+                }
+
+            } // VStack
+            .navigationTitle("페이지 제목")
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarHidden(false)
+            
+            .navigationBarItems(leading: Image(systemName: "line.3.horizontal"),
+                                trailing: Button(
+                                    action: {
+                                        showSeet.toggle()
+                                    }, label: {
+                                        Image(systemName: "gear")
+                                    }
+                                )
+            )
+        }// NavigationView
+        .sheet(isPresented: $showSeet, content: {
+            Color.green.ignoresSafeArea()
+            
+            Text("설정페이지 입니다")
+                .font(.largeTitle)
+        })
+
     }
 }
 

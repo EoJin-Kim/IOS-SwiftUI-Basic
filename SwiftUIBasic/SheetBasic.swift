@@ -8,8 +8,32 @@
 import SwiftUI
 
 struct SheetBasic: View {
+    @State
+    var showSheet: Bool = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Color.green.ignoresSafeArea()
+            
+            Button(
+                action: {
+                    showSheet.toggle()
+                }, label: {
+                    Text("button")
+                        .foregroundColor(.green)
+                        .font(.headline)
+                        .padding()
+                        .background(.white)
+                        .cornerRadius(10)
+                }
+                
+            )
+//            .sheet(isPresented: $showSheet){
+//                SheetBasic2()
+//            }
+            .fullScreenCover(isPresented: $showSheet){
+                SheetBasic2()
+            }
+        }
     }
 }
 

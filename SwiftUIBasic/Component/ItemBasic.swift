@@ -8,11 +8,25 @@
 import SwiftUI
 
 struct ItemBasic: View {
+    
+    let title: String
+    let count: Int
+    let color: Color
+    
+
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Text("\(count)")
+            Text(title)
+        }.padding()
+            .background(color)
+            .cornerRadius(10)
     }
 }
 
 #Preview {
-    ItemBasic()
+    
+    
+    ItemBasic(title: "사과", count: 1, color: .red)
 }

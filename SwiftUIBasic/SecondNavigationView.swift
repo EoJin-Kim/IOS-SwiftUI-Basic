@@ -8,11 +8,49 @@
 import SwiftUI
 
 struct SecondNavigationView: View {
+    
+    @Environment(\.presentationMode) var presentationMode
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Color.green.ignoresSafeArea()
+            
+            VStack(spacing: 20){
+                Button(
+                    action: {
+                        presentationMode.wrappedValue.dismiss()
+                    },
+                    label: {
+                        Text("이전 페이지로 이동")
+                            .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                            .font(.headline)
+                            .padding()
+                            .background(.white)
+                            .cornerRadius(15)
+                    }
+                )
+                
+                NavigationLink{
+                    ZStack{
+                        Color.red.ignoresSafeArea()
+                        Text("3번째 페이지 입니다")
+                            .font(.largeTitle)
+                    }
+                }label: {
+                    Text("3번째 페이지로 이동")
+                        .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                        .font(.headline)
+                        .padding()
+                        .background(.white)
+                        .cornerRadius(15)
+                }
+            }
+        }
     }
 }
 
 #Preview {
-    SecondNavigationView()
+    NavigationView{
+        SecondNavigationView()
+    }
+    
 }

@@ -17,7 +17,15 @@ struct ColorPickerBasic: View {
             backgroundColor
                 .ignoresSafeArea()
             
-            ColorPicker(s)
+            ColorPicker(selection: $backgroundColor, supportsOpacity: true) {
+                Text("원하는 색을 고르세요")
+            }
+            .padding()
+            .background(.black)
+            .cornerRadius(10)
+            .foregroundColor(.white)
+            .font(.headline)
+            .padding(50)
                 
         }
     }

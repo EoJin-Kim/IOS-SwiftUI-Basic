@@ -8,8 +8,39 @@
 import SwiftUI
 
 struct ExtractViewBasic: View {
+    
+    @State var backgoundColor: Color = Color.pink
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            backgoundColor.ignoresSafeArea()
+            
+            contentLayer
+        }
+    }
+    var contentLayer: some View {
+        VStack{
+            Text("Extract View 연순")
+                .font(.largeTitle)
+            
+            Button(
+                action: {
+                    buttonPressed()
+                },
+                label: {
+                    Text("바탕색 변경")
+                        .font(.headline)
+                        .foregroundColor(.white)
+                        .padding()
+                        .background(.black)
+                        .cornerRadius(10)
+                }
+            )
+        }
+    }
+    
+    func buttonPressed(){
+        backgoundColor = .yellow
     }
 }
 
