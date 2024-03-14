@@ -7,18 +7,116 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB0EF3552B9C8D6D00306C75 /* ImageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0EF3542B9C8D6D00306C75 /* ImageBasic.swift */; };
+		EB0EF3572B9C8F9300306C75 /* FrameBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0EF3562B9C8F9300306C75 /* FrameBasic.swift */; };
+		EB0EF3592B9C929A00306C75 /* BackgroundOverlayBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0EF3582B9C929A00306C75 /* BackgroundOverlayBasic.swift */; };
+		EB0EF35B2B9CB3DC00306C75 /* StackBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0EF35A2B9CB3DC00306C75 /* StackBasic.swift */; };
 		EB25106D2B9B7D9900189A5B /* SwiftUIBasicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB25106C2B9B7D9900189A5B /* SwiftUIBasicApp.swift */; };
 		EB25106F2B9B7D9900189A5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB25106E2B9B7D9900189A5B /* ContentView.swift */; };
 		EB2510712B9B7D9B00189A5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2510702B9B7D9B00189A5B /* Assets.xcassets */; };
 		EB2510742B9B7D9B00189A5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2510732B9B7D9B00189A5B /* Preview Assets.xcassets */; };
+		EB25107B2B9B7E5600189A5B /* TextBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB25107A2B9B7E5600189A5B /* TextBasic.swift */; };
+		EB362DE12BA1D88500A339F6 /* ListBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB362DE02BA1D88500A339F6 /* ListBasic.swift */; };
+		EB362DE32BA1E01E00A339F6 /* AlertBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB362DE22BA1E01E00A339F6 /* AlertBasic.swift */; };
+		EB362DE52BA1F20200A339F6 /* ContextMenuBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB362DE42BA1F20200A339F6 /* ContextMenuBasic.swift */; };
+		EB362DE72BA1F4A100A339F6 /* ActionSheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB362DE62BA1F4A100A339F6 /* ActionSheetBasic.swift */; };
+		EB362DE92BA1F6F500A339F6 /* TextFieldBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB362DE82BA1F6F500A339F6 /* TextFieldBasic.swift */; };
+		EB4451C12BA0741600F45736 /* BindingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4451C02BA0741600F45736 /* BindingBasic.swift */; };
+		EB4451C52BA074CF00F45736 /* BindingChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4451C42BA074CF00F45736 /* BindingChild.swift */; };
+		EB4451C72BA07E5D00F45736 /* ConditionalBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4451C62BA07E5D00F45736 /* ConditionalBasic.swift */; };
+		EB4451C92BA080D400F45736 /* TernaryBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4451C82BA080D400F45736 /* TernaryBasic.swift */; };
+		EB4451CB2BA082B100F45736 /* AnimationBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4451CA2BA082B100F45736 /* AnimationBasic.swift */; };
+		EB4451CD2BA0926300F45736 /* TransitionBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4451CC2BA0926300F45736 /* TransitionBasic.swift */; };
+		EB4451CF2BA09CFC00F45736 /* SheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4451CE2BA09CFC00F45736 /* SheetBasic.swift */; };
+		EB4451D12BA09D1200F45736 /* SheetBasic2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4451D02BA09D1200F45736 /* SheetBasic2.swift */; };
+		EB4451D32BA09F7000F45736 /* NavigationBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4451D22BA09F7000F45736 /* NavigationBasic.swift */; };
+		EB4451D52BA09F7E00F45736 /* SecondNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4451D42BA09F7E00F45736 /* SecondNavigationView.swift */; };
+		EB750F192B9C1BCB004A141A /* ShapeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB750F182B9C1BCB004A141A /* ShapeBasic.swift */; };
+		EB750F1B2B9C220C004A141A /* ColorBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB750F1A2B9C220C004A141A /* ColorBasic.swift */; };
+		EB750F1D2B9C2FFA004A141A /* GradientBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB750F1C2B9C2FFA004A141A /* GradientBasic.swift */; };
+		EB8CAD052BA30BEE000AABA1 /* ToggleBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CAD042BA30BEE000AABA1 /* ToggleBasic.swift */; };
+		EB8CAD072BA31519000AABA1 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CAD062BA31519000AABA1 /* SwiftUIView.swift */; };
+		EB8CAD092BA31545000AABA1 /* PickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CAD082BA31545000AABA1 /* PickerBasic.swift */; };
+		EB8CAD0B2BA31713000AABA1 /* ColorPickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CAD0A2BA31713000AABA1 /* ColorPickerBasic.swift */; };
+		EB8CAD0D2BA32026000AABA1 /* DatePickerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CAD0C2BA32026000AABA1 /* DatePickerBasic.swift */; };
+		EB8CAD0F2BA325EF000AABA1 /* StepperBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CAD0E2BA325EF000AABA1 /* StepperBasic.swift */; };
+		EB8CAD112BA32941000AABA1 /* SliderBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CAD102BA32941000AABA1 /* SliderBasic.swift */; };
+		EB8CAD132BA3308B000AABA1 /* TabViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CAD122BA3308B000AABA1 /* TabViewBasic.swift */; };
+		EB8CAD152BA332B2000AABA1 /* DarkModeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CAD142BA332B2000AABA1 /* DarkModeBasic.swift */; };
+		EB8CAD172BA334DA000AABA1 /* OnAppearBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CAD162BA334DA000AABA1 /* OnAppearBasic.swift */; };
+		EB8CAD192BA336CC000AABA1 /* OnTabGestureBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CAD182BA336CC000AABA1 /* OnTabGestureBasic.swift */; };
+		EB8CAD1F2BA3524C000AABA1 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CAD1E2BA3524C000AABA1 /* UserModel.swift */; };
+		EB8CAD212BA35314000AABA1 /* UserModelBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CAD202BA35314000AABA1 /* UserModelBasicView.swift */; };
+		EBA385BF2B9C3E2E002F55B2 /* IconBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA385BE2B9C3E2E002F55B2 /* IconBasic.swift */; };
+		EBA83C1E2B9D97B1000D7331 /* PaddingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA83C1D2B9D97B1000D7331 /* PaddingBasic.swift */; };
+		EBA83C202B9DA5E6000D7331 /* SpacerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA83C1F2B9DA5E6000D7331 /* SpacerBasic.swift */; };
+		EBA83C222B9DDB77000D7331 /* ScrollViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA83C212B9DDB77000D7331 /* ScrollViewBasic.swift */; };
+		EBA83C242B9DDED8000D7331 /* InitEnumBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA83C232B9DDED8000D7331 /* InitEnumBasic.swift */; };
+		EBA83C262B9DFAFB000D7331 /* ForEachLoopBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA83C252B9DFAFB000D7331 /* ForEachLoopBasic.swift */; };
+		EBA83C282B9DFC85000D7331 /* LazyGridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA83C272B9DFC85000D7331 /* LazyGridBasic.swift */; };
+		EBE2D9122B9F456F00651AED /* IgnorSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2D9112B9F456F00651AED /* IgnorSafeArea.swift */; };
+		EBE2D9142B9F482C00651AED /* ButtonBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2D9132B9F482C00651AED /* ButtonBasic.swift */; };
+		EBE2D9162B9F635200651AED /* StateBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2D9152B9F635200651AED /* StateBasic.swift */; };
+		EBE2D9182B9F651000651AED /* ExtractViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2D9172B9F651000651AED /* ExtractViewBasic.swift */; };
+		EBE2D91A2B9F669A00651AED /* ExtractSubViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2D9192B9F669A00651AED /* ExtractSubViewBasic.swift */; };
+		EBE2D91D2B9F66D800651AED /* ItemBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2D91C2B9F66D800651AED /* ItemBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB0EF3542B9C8D6D00306C75 /* ImageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBasic.swift; sourceTree = "<group>"; };
+		EB0EF3562B9C8F9300306C75 /* FrameBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBasic.swift; sourceTree = "<group>"; };
+		EB0EF3582B9C929A00306C75 /* BackgroundOverlayBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundOverlayBasic.swift; sourceTree = "<group>"; };
+		EB0EF35A2B9CB3DC00306C75 /* StackBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackBasic.swift; sourceTree = "<group>"; };
 		EB2510692B9B7D9900189A5B /* SwiftUIBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB25106C2B9B7D9900189A5B /* SwiftUIBasicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicApp.swift; sourceTree = "<group>"; };
 		EB25106E2B9B7D9900189A5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB2510702B9B7D9B00189A5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB2510732B9B7D9B00189A5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB25107A2B9B7E5600189A5B /* TextBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBasic.swift; sourceTree = "<group>"; };
+		EB362DE02BA1D88500A339F6 /* ListBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBasic.swift; sourceTree = "<group>"; };
+		EB362DE22BA1E01E00A339F6 /* AlertBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBasic.swift; sourceTree = "<group>"; };
+		EB362DE42BA1F20200A339F6 /* ContextMenuBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBasic.swift; sourceTree = "<group>"; };
+		EB362DE62BA1F4A100A339F6 /* ActionSheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetBasic.swift; sourceTree = "<group>"; };
+		EB362DE82BA1F6F500A339F6 /* TextFieldBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBasic.swift; sourceTree = "<group>"; };
+		EB4451C02BA0741600F45736 /* BindingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBasic.swift; sourceTree = "<group>"; };
+		EB4451C42BA074CF00F45736 /* BindingChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingChild.swift; sourceTree = "<group>"; };
+		EB4451C62BA07E5D00F45736 /* ConditionalBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalBasic.swift; sourceTree = "<group>"; };
+		EB4451C82BA080D400F45736 /* TernaryBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryBasic.swift; sourceTree = "<group>"; };
+		EB4451CA2BA082B100F45736 /* AnimationBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBasic.swift; sourceTree = "<group>"; };
+		EB4451CC2BA0926300F45736 /* TransitionBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionBasic.swift; sourceTree = "<group>"; };
+		EB4451CE2BA09CFC00F45736 /* SheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetBasic.swift; sourceTree = "<group>"; };
+		EB4451D02BA09D1200F45736 /* SheetBasic2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetBasic2.swift; sourceTree = "<group>"; };
+		EB4451D22BA09F7000F45736 /* NavigationBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBasic.swift; sourceTree = "<group>"; };
+		EB4451D42BA09F7E00F45736 /* SecondNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondNavigationView.swift; sourceTree = "<group>"; };
+		EB750F182B9C1BCB004A141A /* ShapeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeBasic.swift; sourceTree = "<group>"; };
+		EB750F1A2B9C220C004A141A /* ColorBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBasic.swift; sourceTree = "<group>"; };
+		EB750F1C2B9C2FFA004A141A /* GradientBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBasic.swift; sourceTree = "<group>"; };
+		EB8CAD042BA30BEE000AABA1 /* ToggleBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBasic.swift; sourceTree = "<group>"; };
+		EB8CAD062BA31519000AABA1 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		EB8CAD082BA31545000AABA1 /* PickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBasic.swift; sourceTree = "<group>"; };
+		EB8CAD0A2BA31713000AABA1 /* ColorPickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerBasic.swift; sourceTree = "<group>"; };
+		EB8CAD0C2BA32026000AABA1 /* DatePickerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerBasic.swift; sourceTree = "<group>"; };
+		EB8CAD0E2BA325EF000AABA1 /* StepperBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperBasic.swift; sourceTree = "<group>"; };
+		EB8CAD102BA32941000AABA1 /* SliderBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBasic.swift; sourceTree = "<group>"; };
+		EB8CAD122BA3308B000AABA1 /* TabViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBasic.swift; sourceTree = "<group>"; };
+		EB8CAD142BA332B2000AABA1 /* DarkModeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeBasic.swift; sourceTree = "<group>"; };
+		EB8CAD162BA334DA000AABA1 /* OnAppearBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearBasic.swift; sourceTree = "<group>"; };
+		EB8CAD182BA336CC000AABA1 /* OnTabGestureBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTabGestureBasic.swift; sourceTree = "<group>"; };
+		EB8CAD1E2BA3524C000AABA1 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		EB8CAD202BA35314000AABA1 /* UserModelBasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelBasicView.swift; sourceTree = "<group>"; };
+		EBA385BE2B9C3E2E002F55B2 /* IconBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconBasic.swift; sourceTree = "<group>"; };
+		EBA83C1D2B9D97B1000D7331 /* PaddingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingBasic.swift; sourceTree = "<group>"; };
+		EBA83C1F2B9DA5E6000D7331 /* SpacerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerBasic.swift; sourceTree = "<group>"; };
+		EBA83C212B9DDB77000D7331 /* ScrollViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBasic.swift; sourceTree = "<group>"; };
+		EBA83C232B9DDED8000D7331 /* InitEnumBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitEnumBasic.swift; sourceTree = "<group>"; };
+		EBA83C252B9DFAFB000D7331 /* ForEachLoopBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoopBasic.swift; sourceTree = "<group>"; };
+		EBA83C272B9DFC85000D7331 /* LazyGridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridBasic.swift; sourceTree = "<group>"; };
+		EBE2D9112B9F456F00651AED /* IgnorSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnorSafeArea.swift; sourceTree = "<group>"; };
+		EBE2D9132B9F482C00651AED /* ButtonBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBasic.swift; sourceTree = "<group>"; };
+		EBE2D9152B9F635200651AED /* StateBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBasic.swift; sourceTree = "<group>"; };
+		EBE2D9172B9F651000651AED /* ExtractViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractViewBasic.swift; sourceTree = "<group>"; };
+		EBE2D9192B9F669A00651AED /* ExtractSubViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubViewBasic.swift; sourceTree = "<group>"; };
+		EBE2D91C2B9F66D800651AED /* ItemBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +150,56 @@
 			isa = PBXGroup;
 			children = (
 				EB25106C2B9B7D9900189A5B /* SwiftUIBasicApp.swift */,
+				EB0EF35A2B9CB3DC00306C75 /* StackBasic.swift */,
 				EB25106E2B9B7D9900189A5B /* ContentView.swift */,
 				EB2510702B9B7D9B00189A5B /* Assets.xcassets */,
 				EB2510722B9B7D9B00189A5B /* Preview Content */,
+				EB25107A2B9B7E5600189A5B /* TextBasic.swift */,
+				EB750F182B9C1BCB004A141A /* ShapeBasic.swift */,
+				EB750F1A2B9C220C004A141A /* ColorBasic.swift */,
+				EB750F1C2B9C2FFA004A141A /* GradientBasic.swift */,
+				EBA385BE2B9C3E2E002F55B2 /* IconBasic.swift */,
+				EB0EF3542B9C8D6D00306C75 /* ImageBasic.swift */,
+				EB0EF3562B9C8F9300306C75 /* FrameBasic.swift */,
+				EB0EF3582B9C929A00306C75 /* BackgroundOverlayBasic.swift */,
+				EBA83C1D2B9D97B1000D7331 /* PaddingBasic.swift */,
+				EBA83C1F2B9DA5E6000D7331 /* SpacerBasic.swift */,
+				EBA83C212B9DDB77000D7331 /* ScrollViewBasic.swift */,
+				EBA83C232B9DDED8000D7331 /* InitEnumBasic.swift */,
+				EBA83C252B9DFAFB000D7331 /* ForEachLoopBasic.swift */,
+				EBA83C272B9DFC85000D7331 /* LazyGridBasic.swift */,
+				EBE2D9112B9F456F00651AED /* IgnorSafeArea.swift */,
+				EBE2D9132B9F482C00651AED /* ButtonBasic.swift */,
+				EBE2D9152B9F635200651AED /* StateBasic.swift */,
+				EBE2D9172B9F651000651AED /* ExtractViewBasic.swift */,
+				EBE2D9192B9F669A00651AED /* ExtractSubViewBasic.swift */,
+				EBE2D91B2B9F66C800651AED /* Component */,
+				EB4451C02BA0741600F45736 /* BindingBasic.swift */,
+				EB4451C62BA07E5D00F45736 /* ConditionalBasic.swift */,
+				EB4451C82BA080D400F45736 /* TernaryBasic.swift */,
+				EB4451CA2BA082B100F45736 /* AnimationBasic.swift */,
+				EB4451CC2BA0926300F45736 /* TransitionBasic.swift */,
+				EB4451CE2BA09CFC00F45736 /* SheetBasic.swift */,
+				EB4451D02BA09D1200F45736 /* SheetBasic2.swift */,
+				EB4451D22BA09F7000F45736 /* NavigationBasic.swift */,
+				EB4451D42BA09F7E00F45736 /* SecondNavigationView.swift */,
+				EB362DE02BA1D88500A339F6 /* ListBasic.swift */,
+				EB362DE22BA1E01E00A339F6 /* AlertBasic.swift */,
+				EB362DE42BA1F20200A339F6 /* ContextMenuBasic.swift */,
+				EB362DE62BA1F4A100A339F6 /* ActionSheetBasic.swift */,
+				EB362DE82BA1F6F500A339F6 /* TextFieldBasic.swift */,
+				EB8CAD042BA30BEE000AABA1 /* ToggleBasic.swift */,
+				EB8CAD062BA31519000AABA1 /* SwiftUIView.swift */,
+				EB8CAD082BA31545000AABA1 /* PickerBasic.swift */,
+				EB8CAD0A2BA31713000AABA1 /* ColorPickerBasic.swift */,
+				EB8CAD0C2BA32026000AABA1 /* DatePickerBasic.swift */,
+				EB8CAD0E2BA325EF000AABA1 /* StepperBasic.swift */,
+				EB8CAD102BA32941000AABA1 /* SliderBasic.swift */,
+				EB8CAD122BA3308B000AABA1 /* TabViewBasic.swift */,
+				EB8CAD142BA332B2000AABA1 /* DarkModeBasic.swift */,
+				EB8CAD162BA334DA000AABA1 /* OnAppearBasic.swift */,
+				EB8CAD182BA336CC000AABA1 /* OnTabGestureBasic.swift */,
+				EB8CAD1A2BA34DFC000AABA1 /* MVVM */,
 			);
 			path = SwiftUIBasic;
 			sourceTree = "<group>";
@@ -65,6 +210,48 @@
 				EB2510732B9B7D9B00189A5B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB8CAD1A2BA34DFC000AABA1 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				EB8CAD1D2BA35235000AABA1 /* View */,
+				EB8CAD1C2BA3522E000AABA1 /* ViewModel */,
+				EB8CAD1B2BA35225000AABA1 /* Model */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		EB8CAD1B2BA35225000AABA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB8CAD1E2BA3524C000AABA1 /* UserModel.swift */,
+				EB8CAD202BA35314000AABA1 /* UserModelBasicView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB8CAD1C2BA3522E000AABA1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EB8CAD1D2BA35235000AABA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EBE2D91B2B9F66C800651AED /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				EBE2D91C2B9F66D800651AED /* ItemBasic.swift */,
+				EB4451C42BA074CF00F45736 /* BindingChild.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +324,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8CAD052BA30BEE000AABA1 /* ToggleBasic.swift in Sources */,
+				EBA83C242B9DDED8000D7331 /* InitEnumBasic.swift in Sources */,
+				EB0EF3552B9C8D6D00306C75 /* ImageBasic.swift in Sources */,
+				EB4451D32BA09F7000F45736 /* NavigationBasic.swift in Sources */,
+				EB4451C12BA0741600F45736 /* BindingBasic.swift in Sources */,
+				EBE2D91A2B9F669A00651AED /* ExtractSubViewBasic.swift in Sources */,
+				EBE2D91D2B9F66D800651AED /* ItemBasic.swift in Sources */,
+				EB750F1D2B9C2FFA004A141A /* GradientBasic.swift in Sources */,
+				EB8CAD1F2BA3524C000AABA1 /* UserModel.swift in Sources */,
+				EB4451CF2BA09CFC00F45736 /* SheetBasic.swift in Sources */,
+				EBE2D9122B9F456F00651AED /* IgnorSafeArea.swift in Sources */,
+				EB8CAD0F2BA325EF000AABA1 /* StepperBasic.swift in Sources */,
+				EB8CAD132BA3308B000AABA1 /* TabViewBasic.swift in Sources */,
+				EB4451C52BA074CF00F45736 /* BindingChild.swift in Sources */,
+				EBA83C282B9DFC85000D7331 /* LazyGridBasic.swift in Sources */,
+				EBA385BF2B9C3E2E002F55B2 /* IconBasic.swift in Sources */,
+				EB362DE72BA1F4A100A339F6 /* ActionSheetBasic.swift in Sources */,
+				EB362DE12BA1D88500A339F6 /* ListBasic.swift in Sources */,
+				EB4451D52BA09F7E00F45736 /* SecondNavigationView.swift in Sources */,
+				EBE2D9142B9F482C00651AED /* ButtonBasic.swift in Sources */,
+				EB8CAD092BA31545000AABA1 /* PickerBasic.swift in Sources */,
+				EB362DE92BA1F6F500A339F6 /* TextFieldBasic.swift in Sources */,
+				EB0EF3592B9C929A00306C75 /* BackgroundOverlayBasic.swift in Sources */,
+				EBA83C262B9DFAFB000D7331 /* ForEachLoopBasic.swift in Sources */,
+				EB8CAD0D2BA32026000AABA1 /* DatePickerBasic.swift in Sources */,
+				EB362DE32BA1E01E00A339F6 /* AlertBasic.swift in Sources */,
+				EB25107B2B9B7E5600189A5B /* TextBasic.swift in Sources */,
+				EB8CAD0B2BA31713000AABA1 /* ColorPickerBasic.swift in Sources */,
+				EB8CAD192BA336CC000AABA1 /* OnTabGestureBasic.swift in Sources */,
 				EB25106F2B9B7D9900189A5B /* ContentView.swift in Sources */,
+				EB4451D12BA09D1200F45736 /* SheetBasic2.swift in Sources */,
+				EB362DE52BA1F20200A339F6 /* ContextMenuBasic.swift in Sources */,
+				EB8CAD152BA332B2000AABA1 /* DarkModeBasic.swift in Sources */,
+				EB4451C92BA080D400F45736 /* TernaryBasic.swift in Sources */,
+				EB750F192B9C1BCB004A141A /* ShapeBasic.swift in Sources */,
+				EB4451CB2BA082B100F45736 /* AnimationBasic.swift in Sources */,
+				EB750F1B2B9C220C004A141A /* ColorBasic.swift in Sources */,
 				EB25106D2B9B7D9900189A5B /* SwiftUIBasicApp.swift in Sources */,
+				EBE2D9182B9F651000651AED /* ExtractViewBasic.swift in Sources */,
+				EBA83C202B9DA5E6000D7331 /* SpacerBasic.swift in Sources */,
+				EB8CAD172BA334DA000AABA1 /* OnAppearBasic.swift in Sources */,
+				EB8CAD212BA35314000AABA1 /* UserModelBasicView.swift in Sources */,
+				EBA83C222B9DDB77000D7331 /* ScrollViewBasic.swift in Sources */,
+				EB4451CD2BA0926300F45736 /* TransitionBasic.swift in Sources */,
+				EB8CAD072BA31519000AABA1 /* SwiftUIView.swift in Sources */,
+				EB8CAD112BA32941000AABA1 /* SliderBasic.swift in Sources */,
+				EB0EF3572B9C8F9300306C75 /* FrameBasic.swift in Sources */,
+				EBA83C1E2B9D97B1000D7331 /* PaddingBasic.swift in Sources */,
+				EB4451C72BA07E5D00F45736 /* ConditionalBasic.swift in Sources */,
+				EBE2D9162B9F635200651AED /* StateBasic.swift in Sources */,
+				EB0EF35B2B9CB3DC00306C75 /* StackBasic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
