@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE2B944A2BA3DA85008FD281 /* IOSDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2B94492BA3DA85008FD281 /* IOSDeviceModel.swift */; };
+		AE2B944C2BA3DAAD008FD281 /* IOSDeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2B944B2BA3DAAD008FD281 /* IOSDeviceViewModel.swift */; };
+		AE2B944E2BA3DB4C008FD281 /* IOSDeviceView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2B944D2BA3DB4C008FD281 /* IOSDeviceView1.swift */; };
+		AE2B94502BA3DCC1008FD281 /* IOSDeviceView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2B944F2BA3DCC1008FD281 /* IOSDeviceView2.swift */; };
+		AE2B94522BA3DD9C008FD281 /* IOSDeviceView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2B94512BA3DD9C008FD281 /* IOSDeviceView3.swift */; };
+		AE2B94542BA3E80D008FD281 /* AppStorageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2B94532BA3E80D008FD281 /* AppStorageBasic.swift */; };
 		EB0EF3552B9C8D6D00306C75 /* ImageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0EF3542B9C8D6D00306C75 /* ImageBasic.swift */; };
 		EB0EF3572B9C8F9300306C75 /* FrameBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0EF3562B9C8F9300306C75 /* FrameBasic.swift */; };
 		EB0EF3592B9C929A00306C75 /* BackgroundOverlayBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0EF3582B9C929A00306C75 /* BackgroundOverlayBasic.swift */; };
@@ -66,6 +72,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE2B94492BA3DA85008FD281 /* IOSDeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceModel.swift; sourceTree = "<group>"; };
+		AE2B944B2BA3DAAD008FD281 /* IOSDeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceViewModel.swift; sourceTree = "<group>"; };
+		AE2B944D2BA3DB4C008FD281 /* IOSDeviceView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView1.swift; sourceTree = "<group>"; };
+		AE2B944F2BA3DCC1008FD281 /* IOSDeviceView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView2.swift; sourceTree = "<group>"; };
+		AE2B94512BA3DD9C008FD281 /* IOSDeviceView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView3.swift; sourceTree = "<group>"; };
+		AE2B94532BA3E80D008FD281 /* AppStorageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageBasic.swift; sourceTree = "<group>"; };
 		EB0EF3542B9C8D6D00306C75 /* ImageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBasic.swift; sourceTree = "<group>"; };
 		EB0EF3562B9C8F9300306C75 /* FrameBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBasic.swift; sourceTree = "<group>"; };
 		EB0EF3582B9C929A00306C75 /* BackgroundOverlayBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundOverlayBasic.swift; sourceTree = "<group>"; };
@@ -140,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				EB25106B2B9B7D9900189A5B /* SwiftUIBasic */,
+				AE2B94532BA3E80D008FD281 /* AppStorageBasic.swift */,
 				EB25106A2B9B7D9900189A5B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -232,6 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				EB8CAD1E2BA3524C000AABA1 /* UserModel.swift */,
+				AE2B94492BA3DA85008FD281 /* IOSDeviceModel.swift */,
 				EB8CAD222BA35A09000AABA1 /* FruitModel.swift */,
 			);
 			path = Model;
@@ -241,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				EB8CAD242BA35AC8000AABA1 /* FruitViewModel.swift */,
+				AE2B944B2BA3DAAD008FD281 /* IOSDeviceViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -250,6 +265,9 @@
 			children = (
 				EB8CAD202BA35314000AABA1 /* UserModelBasicView.swift */,
 				EB8CAD262BA35C9D000AABA1 /* FruitBasicView.swift */,
+				AE2B944D2BA3DB4C008FD281 /* IOSDeviceView1.swift */,
+				AE2B944F2BA3DCC1008FD281 /* IOSDeviceView2.swift */,
+				AE2B94512BA3DD9C008FD281 /* IOSDeviceView3.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -338,18 +356,23 @@
 				EB0EF3552B9C8D6D00306C75 /* ImageBasic.swift in Sources */,
 				EB4451D32BA09F7000F45736 /* NavigationBasic.swift in Sources */,
 				EB4451C12BA0741600F45736 /* BindingBasic.swift in Sources */,
+				AE2B944A2BA3DA85008FD281 /* IOSDeviceModel.swift in Sources */,
 				EBE2D91A2B9F669A00651AED /* ExtractSubViewBasic.swift in Sources */,
 				EBE2D91D2B9F66D800651AED /* ItemBasic.swift in Sources */,
+				AE2B94542BA3E80D008FD281 /* AppStorageBasic.swift in Sources */,
 				EB750F1D2B9C2FFA004A141A /* GradientBasic.swift in Sources */,
 				EB8CAD1F2BA3524C000AABA1 /* UserModel.swift in Sources */,
 				EB4451CF2BA09CFC00F45736 /* SheetBasic.swift in Sources */,
 				EBE2D9122B9F456F00651AED /* IgnorSafeArea.swift in Sources */,
 				EB8CAD0F2BA325EF000AABA1 /* StepperBasic.swift in Sources */,
 				EB8CAD132BA3308B000AABA1 /* TabViewBasic.swift in Sources */,
+				AE2B94502BA3DCC1008FD281 /* IOSDeviceView2.swift in Sources */,
 				EB4451C52BA074CF00F45736 /* BindingChild.swift in Sources */,
 				EBA83C282B9DFC85000D7331 /* LazyGridBasic.swift in Sources */,
 				EBA385BF2B9C3E2E002F55B2 /* IconBasic.swift in Sources */,
 				EB362DE72BA1F4A100A339F6 /* ActionSheetBasic.swift in Sources */,
+				AE2B944C2BA3DAAD008FD281 /* IOSDeviceViewModel.swift in Sources */,
+				AE2B94522BA3DD9C008FD281 /* IOSDeviceView3.swift in Sources */,
 				EB8CAD252BA35AC8000AABA1 /* FruitViewModel.swift in Sources */,
 				EB8CAD272BA35C9D000AABA1 /* FruitBasicView.swift in Sources */,
 				EB362DE12BA1D88500A339F6 /* ListBasic.swift in Sources */,
@@ -373,6 +396,7 @@
 				EB750F192B9C1BCB004A141A /* ShapeBasic.swift in Sources */,
 				EB4451CB2BA082B100F45736 /* AnimationBasic.swift in Sources */,
 				EB750F1B2B9C220C004A141A /* ColorBasic.swift in Sources */,
+				AE2B944E2BA3DB4C008FD281 /* IOSDeviceView1.swift in Sources */,
 				EB25106D2B9B7D9900189A5B /* SwiftUIBasicApp.swift in Sources */,
 				EBE2D9182B9F651000651AED /* ExtractViewBasic.swift in Sources */,
 				EBA83C202B9DA5E6000D7331 /* SpacerBasic.swift in Sources */,

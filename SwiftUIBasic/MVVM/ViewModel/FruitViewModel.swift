@@ -14,6 +14,9 @@ class FruitViewModel: ObservableObject{
     @Published
     var isLoading: Bool = false
     
+    init(){
+        getFruit()
+    }
     
     func getFruit(){
         let fruit1 = FruitModel(name: "딸기", count: 1)
@@ -22,7 +25,7 @@ class FruitViewModel: ObservableObject{
         
         isLoading = true
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3){
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1){
             self.fruitArray.append(fruit1)
             self.fruitArray.append(fruit2)
             self.fruitArray.append(fruit3)
@@ -34,3 +37,4 @@ class FruitViewModel: ObservableObject{
         fruitArray.remove(atOffsets: index)
     }
 }
+
